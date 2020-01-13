@@ -1,0 +1,174 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/aa">
+
+
+  <TextView
+      android:id="@+id/textView8"
+      android:layout_width="198dp"
+      android:layout_height="30dp"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="20dp"
+      android:text="Name"
+      android:textSize="16dp"
+      android:textColor="@color/white"
+      android:textStyle="bold"/>
+
+  <TextView
+      android:id="@+id/docyou3"
+      android:layout_width="189dp"
+      android:layout_height="32dp"
+      android:layout_marginLeft="100dp"
+      android:layout_marginTop="5dp"
+      android:textStyle="bold"
+      android:textColor="@color/white"
+      android:textSize="17dp"
+      android:text="TextView" />
+
+  <TextView
+      android:id="@+id/textView10"
+      android:layout_width="154dp"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="5dp"
+      android:text="Phone Number"
+      android:textColor="@color/white"
+      android:textSize="16dp"
+      android:textStyle="bold" />
+
+  <TextView
+      android:id="@+id/dw"
+      android:layout_width="208dp"
+      android:textStyle="bold"
+      android:layout_marginLeft="100dp"
+      android:textColor="@color/white"
+      android:textSize="17dp"
+      android:layout_height="43dp"
+      android:layout_marginTop="5dp"
+      android:text="TextView" />
+
+  <TextView
+      android:id="@+id/textView11"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="5dp"
+      android:text="Email"
+      android:textColor="@color/white"
+      android:textSize="16dp"
+      android:textStyle="bold" />
+
+  <TextView
+      android:id="@+id/demail"
+      android:layout_marginLeft="100dp"
+      android:layout_width="match_parent"
+      android:layout_height="43dp"
+      android:layout_marginTop="5dp"
+      android:text="TextView"
+      android:textStyle="bold"
+      android:textColor="@color/white"
+      android:textSize="17dp" />
+
+  <TextView
+      android:id="@+id/textView12"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="5dp"
+      android:text="DOB"
+      android:textColor="@color/white"
+      android:textSize="16dp"
+      android:textStyle="bold" />
+
+  <TextView
+      android:id="@+id/dob"
+      android:layout_width="match_parent"
+      android:layout_height="43dp"
+      android:layout_marginLeft="100dp"
+      android:layout_marginTop="5dp"
+      android:text="TextView"
+      android:textStyle="bold"
+      android:textColor="@color/white"
+      android:textSize="17dp"/>
+
+  <TextView
+      android:id="@+id/textView14"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="5dp"
+      android:text="Address"
+      android:textColor="@color/white"
+      android:textSize="16dp"
+      android:textStyle="bold" />
+
+  <TextView
+      android:id="@+id/daddress"
+      android:layout_marginLeft="100dp"
+      android:layout_width="match_parent"
+      android:layout_height="43dp"
+      android:layout_marginTop="5dp"
+      android:textStyle="bold"
+      android:textColor="@color/white"
+      android:textSize="17dp"
+      android:text="TextView"
+      />
+
+  <TextView
+      android:id="@+id/textView13"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="5dp"
+      android:text="Gender"
+      android:textColor="@color/white"
+      android:textSize="16dp"
+      android:textStyle="bold" />
+
+  <TextView
+      android:id="@+id/dgender"
+      android:layout_width="match_parent"
+      android:layout_height="43dp"
+      android:layout_marginLeft="100dp"
+      android:layout_marginTop="5dp"
+      android:text="TextView"
+      android:textColor="@color/white"
+      android:textSize="17dp"
+      android:textStyle="bold" />
+
+  <TextView
+      android:id="@+id/textView15"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="5dp"
+      android:text="ID Number"
+      android:textColor="@color/white"
+      android:textSize="16dp"
+      android:textStyle="bold" />
+
+  <TextView
+      android:id="@+id/rdname"
+      android:layout_width="match_parent"
+      android:layout_height="43dp"
+      android:layout_marginLeft="100dp"
+      android:layout_marginTop="5dp"
+      android:text="TextView"
+      android:textColor="@color/white"
+      android:textSize="17dp"
+      android:textStyle="bold" />
+
+  <Button
+      android:id="@+id/log"
+      android:layout_width="150dp"
+      android:layout_height="32dp"
+      android:layout_marginLeft="125dp"
+      android:layout_marginTop="45dp"
+      android:background="@drawable/btnn"
+      android:text="LOGOUT" />
+
+</LinearLayout>
