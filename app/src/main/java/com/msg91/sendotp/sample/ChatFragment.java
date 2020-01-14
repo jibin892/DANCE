@@ -236,6 +236,14 @@ public class ChatFragment extends Fragment {
 
         }
 
+        if (id==R.id.event){
+
+
+            Intent iiiii=new Intent(getActivity(), Eventok.class);
+            startActivity(iiiii);
+
+
+        }
 
 
 
